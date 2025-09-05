@@ -11,9 +11,10 @@ En esta primera parte, el robot va apilando los estropajos uno por uno en una es
 ## Instrucciones de Funcionamiento
 Se ha creado un entorno de miniconda. Para ello hay que instalar el programa desde la página oficial de [Anaconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
 Para configurar el entorno se va utilizar los comandos:
-`conda env create -f entorno.yml`
-`conda activate proyectos_env`
-
+```bash
+conda env create -f entorno.yml
+conda activate proyectos_env
+```
 Una vez instalado el entorno, deberemos abrir los dos Pack&Go en RobotStudio, que contienen las células del robot 1 y el robot 2. Ahora lanzamos la simulación del robot 1 en RobotStudio y, seguidamente, ejecutamos el script de detección de color `detect&sendColor.py` en el entorno de Miniconda. Con esto hecho, nos pedirá que seleccionemos una zona de la pantalla para detectar el color, seleccionamos la zona de la cinta a donde llegan los estropajos y le damos a intro. Con esto, ya se estaría ejecutando la parte 1 de nuestro prototipo, faltaría lanzar la simulación de la célula del robot 2 (Módulo 2) que puede funcionar de manera independiente a la del robot 1 y observar también su funcionamiento.
 
 ## Ejemplo de Funcionamiento
