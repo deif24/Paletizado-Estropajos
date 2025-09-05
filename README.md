@@ -9,7 +9,7 @@ En este segundo módulo los estropajos son traídos por las distintas cintas de 
 En esta primera parte, el robot va apilando los estropajos uno por uno en una estación donde se envolverá el paquete, para que después el robot coja todos los estropajos envueltos y los deposite en la caja para su posterior almacenamiento. 
 
 ## Instrucciones de Funcionamiento
-Se ha creado un entorno de miniconda. Para ello hay que instalar el programa desde la página oficial de [Anaconda] (https://www.anaconda.com/docs/getting-started/miniconda/install)
+Se ha creado un entorno de miniconda. Para ello hay que instalar el programa desde la página oficial de [Anaconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
 Para configurar el entorno se va utilizar los comandos:
 `conda env create -f entorno.yml`
 `conda activate proyectos_env`
